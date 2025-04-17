@@ -1,0 +1,4 @@
+/home/alien/Desktop/Embedded/ModernCPP/build/CMakeFiles/main.dir
+/home/alien/Desktop/Embedded/ModernCPP/build/CMakeFiles/debug.dir
+/home/alien/Desktop/Embedded/ModernCPP/build/CMakeFiles/edit_cache.dir
+/home/alien/Desktop/Embedded/ModernCPP/build/CMakeFiles/rebuild_cache.dir
