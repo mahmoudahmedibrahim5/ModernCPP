@@ -2,19 +2,32 @@
 #include "Led.hpp"
 #include "LCD.hpp"
 
+int x = 10;
+int& func(void)
+{
+    return x;
+}
+
+int f(int a, int b)
+{
+    std::cout << "f" << std::endl;
+    return a + b;
+}
 
 int main()
 {
-    LCD display;
-    display.setText("Hello");
+    func() = 5;
+    std::cout << x << std::endl;
 
-    LCD space{" "};
-    LCD world {"World"};
+    int a = 7;
+    int b = 9;
+    int c = f(a, b);
+    std::cout << c << std::endl;
 
-    LCD result;
-    LCD text;
-    text = result + display + space + world;
-    std::cout << result.getText() << std::endl;
-    std::cout << text.getText() << std::endl;
+    int z = 7;
+    int && y = std::move(z);
+    (void)z;
+    std::cout << &y << std::endl;
+    std::cout << &z << std::endl;
     return 0;
 }
