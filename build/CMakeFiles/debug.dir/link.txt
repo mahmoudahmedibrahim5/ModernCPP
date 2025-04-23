@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/debug.dir/link.d CMakeFiles/debug.dir/src/main.cpp.o -o debug
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/debug.dir/link.d CMakeFiles/debug.dir/src/main.cpp.o CMakeFiles/debug.dir/src/Led.cpp.o CMakeFiles/debug.dir/src/LCD.cpp.o -o debug

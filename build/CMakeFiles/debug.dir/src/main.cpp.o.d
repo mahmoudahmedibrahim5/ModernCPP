@@ -143,4 +143,6 @@ CMakeFiles/debug.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
- /usr/include/c++/14.2.1/bits/istream.tcc
+ /usr/include/c++/14.2.1/bits/istream.tcc \
+ /home/alien/Desktop/Embedded/ModernCPP/src/Led.hpp \
+ /home/alien/Desktop/Embedded/ModernCPP/src/LCD.hpp

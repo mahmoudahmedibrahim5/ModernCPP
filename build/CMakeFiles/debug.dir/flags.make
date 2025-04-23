@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alien/Desktop/Embedded/ModernCPP/src/main.hpp
+CXX_INCLUDES = -I/home/alien/Desktop/Embedded/ModernCPP/src
 
 CXX_FLAGS = -g
 

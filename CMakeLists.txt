@@ -3,10 +3,12 @@ project(learnCPP)
 
 set(SRC_FILES
     src/main.cpp
+    src/Led.cpp
+    src/LCD.cpp
 )
 
 set(INC_FILES
-    src/main.hpp
+    src/
 )
 
 add_executable(main ${SRC_FILES})

@@ -149,6 +149,60 @@ debug/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug.dir/build.make CMakeFiles/debug.dir/build
 .PHONY : debug/fast
 
+src/LCD.o: src/LCD.cpp.o
+.PHONY : src/LCD.o
+
+# target to build an object file
+src/LCD.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/LCD.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug.dir/build.make CMakeFiles/debug.dir/src/LCD.cpp.o
+.PHONY : src/LCD.cpp.o
+
+src/LCD.i: src/LCD.cpp.i
+.PHONY : src/LCD.i
+
+# target to preprocess a source file
+src/LCD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/LCD.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug.dir/build.make CMakeFiles/debug.dir/src/LCD.cpp.i
+.PHONY : src/LCD.cpp.i
+
+src/LCD.s: src/LCD.cpp.s
+.PHONY : src/LCD.s
+
+# target to generate assembly for a file
+src/LCD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/LCD.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug.dir/build.make CMakeFiles/debug.dir/src/LCD.cpp.s
+.PHONY : src/LCD.cpp.s
+
+src/Led.o: src/Led.cpp.o
+.PHONY : src/Led.o
+
+# target to build an object file
+src/Led.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Led.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug.dir/build.make CMakeFiles/debug.dir/src/Led.cpp.o
+.PHONY : src/Led.cpp.o
+
+src/Led.i: src/Led.cpp.i
+.PHONY : src/Led.i
+
+# target to preprocess a source file
+src/Led.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Led.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug.dir/build.make CMakeFiles/debug.dir/src/Led.cpp.i
+.PHONY : src/Led.cpp.i
+
+src/Led.s: src/Led.cpp.s
+.PHONY : src/Led.s
+
+# target to generate assembly for a file
+src/Led.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Led.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug.dir/build.make CMakeFiles/debug.dir/src/Led.cpp.s
+.PHONY : src/Led.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -187,6 +241,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... debug"
 	@echo "... main"
+	@echo "... src/LCD.o"
+	@echo "... src/LCD.i"
+	@echo "... src/LCD.s"
+	@echo "... src/Led.o"
+	@echo "... src/Led.i"
+	@echo "... src/Led.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

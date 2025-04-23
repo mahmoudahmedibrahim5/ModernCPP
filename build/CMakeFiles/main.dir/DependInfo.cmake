@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/alien/Desktop/Embedded/ModernCPP/src/LCD.cpp" "CMakeFiles/main.dir/src/LCD.cpp.o" "gcc" "CMakeFiles/main.dir/src/LCD.cpp.o.d"
+  "/home/alien/Desktop/Embedded/ModernCPP/src/Led.cpp" "CMakeFiles/main.dir/src/Led.cpp.o" "gcc" "CMakeFiles/main.dir/src/Led.cpp.o.d"
   "/home/alien/Desktop/Embedded/ModernCPP/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )
